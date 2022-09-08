@@ -6,3 +6,4 @@ This C program prints exactly "Programming is like building a multilingual puzzl
 This program prints exactly with proper grammar, but the outcome is a piece of art,
 This program prints the size of various types on the computer it is compiled and run on
 This script enerates the assembly code (Intel syntax) of a C code and save it in an output file.
+This program prints exactly and that piece of art is useful - Dora Korpar, 2015-10-19, followed by a new line, to the standard error.
