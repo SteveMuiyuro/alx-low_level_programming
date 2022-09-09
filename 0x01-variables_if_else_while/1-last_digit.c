@@ -18,11 +18,11 @@ int main(void)
 	{
 		ld = n % 10
 		if (ld > 5)
-			printf("%d and is greater than 5\n");
+			printf("%d and is greater than 5\n", ld);
 		else if (ld == 0)
-			printf("%d and is 0\n");
+			printf("%d and is 0\n", ld);
 		else if (ld < 6 && !0)
-			printf("%d and is less than 6 and not 0\n");
+			printf("%d and is less than 6 and not 0\n", ld);
 
 	return (0);
 }
