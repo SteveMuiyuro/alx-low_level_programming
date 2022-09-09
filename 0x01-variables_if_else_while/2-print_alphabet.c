@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <ctype.h>
 
 /**
   *main - Entry point
@@ -8,7 +7,7 @@
   */
 int  main(void)
 {
-	int b;
+	char b;
 
 	for (b = 'a'; b <= 'z'; b++)
 	{
