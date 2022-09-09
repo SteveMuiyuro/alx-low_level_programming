@@ -6,9 +6,11 @@
   */
 int  main(void)
 {
+	int b;
+
 	for (b = 'A'; b <= 'Z'; b++)
-	{	b = toLower(b);
-		putchar(b);
+	{
+		putchar(toLower(b);
 	}
 	return (0);
 }
