@@ -9,11 +9,17 @@
 int main(void)
 {
 	int lower;
+	int upper;
 
 	for (lower = 'a'; lower <= 'z'; lower++)
 	{	putchar(lower);
-		putchar(toupper(lower));
 
+	}
+
+	upper = 'A';
+	while (upper <= 'z')
+	{	putchar(upper);
+		upper++;
 	}
 
 	putchar('\n');
