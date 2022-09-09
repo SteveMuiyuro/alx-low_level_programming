@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <ctype.h>
 
 /**
   *main - Entry point
@@ -17,7 +16,7 @@ int main(void)
 	}
 
 	upper = 'A';
-	while (upper <= 'z')
+	while (upper <= 'Z')
 	{	putchar(upper);
 		upper++;
 	}
