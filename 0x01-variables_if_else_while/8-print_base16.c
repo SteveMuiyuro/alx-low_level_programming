@@ -8,9 +8,12 @@
 int main(void)
 {
 	int i;
+	int alpha;
 
 	for (i = 0; i < 16; i++)
-		putchar((i % x) + '0');
+		putchar((i % 10) + '0');
+	for (alpha = 'a'; alpha <= 'f'; alpha++)
+		putchar(alpha);
 
 	putchar('\n');
 
