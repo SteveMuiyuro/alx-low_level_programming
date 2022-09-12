@@ -10,3 +10,4 @@ int _abs(int);
 This function that prints the last digit of a number.
 This function that prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59.
 This function that prints the 9 times table, starting with 0.
+This function that adds two integers and returns the result.
