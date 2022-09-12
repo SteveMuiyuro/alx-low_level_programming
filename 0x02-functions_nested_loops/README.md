@@ -4,3 +4,4 @@ This function that prints 10 times the alphabet, in lowercase, followed by a new
 This function checks for lowercase character.
 int _isalpha(int c);
 This function that checks for alphabetic character
+This function that prints the sign of a number.
