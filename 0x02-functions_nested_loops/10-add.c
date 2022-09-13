@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-  *int add - This function adds 2 integers and
+  *add - This function adds 2 integers and
   *		returns a result
   *@x: is the first value being evaluated
   *@y: is the second value being evaluated
