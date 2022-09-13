@@ -8,7 +8,7 @@ int main(void)
 	unsigned long n1 = 0;
 	unsigned long n2 = 1;
 	unsigned long sum;
-	unsigned long even_sum;
+	int  even_sum;
 
 	while (1)
 	{
@@ -24,7 +24,7 @@ int main(void)
 
 	}
 
-	printf("%ld\n", even_sum);
+	printf("%d\n", even_sum);
 
 	return (0);
 
