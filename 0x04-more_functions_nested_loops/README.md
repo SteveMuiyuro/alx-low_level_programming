@@ -8,3 +8,4 @@ This function draws a straight line in the terminal.
 This function draws a diagonal line on the terminal.
 This function that prints a square, followed by a new line.
 This program performs the Fizz-Buzz test
+This function that prints a triangle, followed by a new line.
