@@ -1,6 +1,8 @@
 #ifndef MAIN_H
 #define MAIN_H
-
+/*
+ *print_numbers -prints numbers from 0 to 9
+ */
 
 int _putchar(char c);
 int _isupper(int c);
