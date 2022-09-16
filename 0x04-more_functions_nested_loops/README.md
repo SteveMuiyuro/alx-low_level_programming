@@ -10,3 +10,4 @@ This function that prints a square, followed by a new line.
 This program performs the Fizz-Buzz test
 This function that prints a triangle, followed by a new line.
 This program that finds and prints the largest prime factor of the number 612852475143, followed by a new line.
+This function that prints an integer.
