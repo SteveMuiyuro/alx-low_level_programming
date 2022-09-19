@@ -9,7 +9,7 @@ void puts2(char *str)
 {
 	int i, j;
 
-	j = strlen(str)
+	j = strlen(str);
 
 	for (i = 0; i <= j - 1; i += 2)
 		_putchar(str[i]);
