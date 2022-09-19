@@ -1,7 +1,7 @@
 #include "main.h"
 /**
   *_atoi - is a function that converts a string into an interger
-  @s: is a string pointer argument
+  *@s: is a string pointer argument
   */
 int _atoi(char *s)
 {
