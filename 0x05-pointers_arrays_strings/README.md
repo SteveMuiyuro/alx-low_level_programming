@@ -5,3 +5,4 @@ _puts(char *str) is a function that prints a string, followed by a new line, to 
 void print_rev(char *s) is afunction that prints in reverse followed by a newline
 void rev_string(char *s) is a function that reverses a string.
 void puts2(char *str) is a function that prints every other character of a string, starting with the first character, followed by a new line.
+void puts_half(char *str) is a function that prints half of a string, followed by a new line.
