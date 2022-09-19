@@ -8,3 +8,4 @@ void puts2(char *str) is a function that prints every other character of a strin
 void puts_half(char *str) is a function that prints half of a string, followed by a new line.
 void print_array(int *a, int n) is a function that prints n elements of an array of integers, followed by a new line.
 char *_strcpy(char *dest, char *src) is a function that copies the string pointed to by src, including the terminating null byte (\0), to the buffer pointed to by dest.
+int _atoi(char *s) is  a function that convert a string to an integer.
