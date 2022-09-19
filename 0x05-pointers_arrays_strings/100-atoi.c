@@ -2,6 +2,7 @@
 /**
   *_atoi - is a function that converts a string into an interger
   *@s: is a string pointer argument
+  *Return: Always 0
   */
 int _atoi(char *s)
 {
