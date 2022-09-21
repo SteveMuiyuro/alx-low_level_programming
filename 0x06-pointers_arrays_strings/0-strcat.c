@@ -4,8 +4,8 @@
   *	      string to the dest string, overwriting the terminating
   *	      null byte (\0) at the end of dest, and then adds a
   *	      terminating null byte
-  *@*dest: The first pinyer argument
-  *@*src: The second pointer argument
+  *@dest: The first pointer argument
+  *@src: The second pointer argument
   *Return: a pointer to the resulting string dest
   */
 char *_strcat(char *dest, char *src)
