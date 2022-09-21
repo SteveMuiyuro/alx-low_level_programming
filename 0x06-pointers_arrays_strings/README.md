@@ -4,3 +4,4 @@ char *_strncpy(char *dest, char *src, int n) is afunction that copies a string
 int _strcmp(char *s1, char *s2) is a function that compares two strings
 void reverse_array(int *a, int n); is a function that everses the content of an array of integers.
 is a function that changes all lowercase letters of a string to uppercase.
+char *cap_string(char *) is a function that capitalizes all words of a string.
