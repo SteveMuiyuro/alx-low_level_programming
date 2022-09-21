@@ -6,3 +6,4 @@ void reverse_array(int *a, int n); is a function that everses the content of an 
 is a function that changes all lowercase letters of a string to uppercase.
 char *cap_string(char *) is a function that capitalizes all words of a string.
 Function for task number 7 encodes a string into 1337.
+char *rot13(char *) is a function that encodes a string using rot13.
