@@ -9,33 +9,18 @@
  */
 char *_strchr(char *s, char c)
 {
-	int i;
-	int j;
-	int count;
 
-	i = 0;
-	j = 0;
-	count = 0;
 
-	while (s[i] != '\0')
+	int k = 0;
+
+	while (*(s + k))
 	{
-		while (c[j] != '\0')
-		{
-			if (c[j] == s[i])
-			{
-				count++;
-			}
-			j++;
-
-		}
-		j = 0;
-		i++;
-
-		if (s[i] == ' ')
-		{
-			break;
-		}
+		if (*(s + k) == c)
+			return (s + k);
+		k++;
 	}
+	if (*(s + k) == c)
+		return (s + k);
+	return (NULL);
 
-	return (count);
 }
