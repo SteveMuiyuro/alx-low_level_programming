@@ -23,10 +23,11 @@ char *_strchr(char *s, char c)
 		{
 			if (s[i] == c[j])
 				count++;
-		j++;
+			j++;
 
 		}
 
 		i++;
+	}
 	return (count);
 }
