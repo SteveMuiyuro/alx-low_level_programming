@@ -21,11 +21,13 @@ char *_strchr(char *s, char c)
 	{
 		while (c[j] != '\0')
 		{
-			if (s[i] == c[j])
+			if (c[j] == s[i])
 				count++;
 			j++;
 
 		}
+
+		j = 0;
 
 		i++;
 	}
