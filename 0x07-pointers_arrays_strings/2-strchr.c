@@ -17,19 +17,25 @@ char *_strchr(char *s, char c)
 	j = 0;
 	count = 0;
 
-	while (s[i] != '\0' && s[i] != ' ')
+	while (s[i] != '\0')
 	{
 		while (c[j] != '\0')
 		{
 			if (c[j] == s[i])
+			{
 				count++;
+			}
 			j++;
 
 		}
-
 		j = 0;
-
 		i++;
+
+		if (s[i] == ' ')
+		{
+			break;
+		}
 	}
+
 	return (count);
 }
