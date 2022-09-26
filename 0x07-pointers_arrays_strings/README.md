@@ -4,3 +4,4 @@ char *_strchr(char *s, char c) is a function that locates a character in a strin
 unsigned int _strspn(char *s, char *accept) is a function that gets the length of a prefix substring
 char *_strpbrk(char *s, char *accept) is a function that searches a string for any of a set of bytes.
 char *_strstr(char *haystack, char *needle) is a function that locates a substring.
+void print_chessboard(char (*a)[8]) is a function that prints a chessboard
