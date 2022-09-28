@@ -5,7 +5,7 @@
   */
 void _puts_recursion(char *s)
 {
-	if (*str == "\0")
+	if (*s == "\0")
 	{
 		_putchar('/n');
 		return;
