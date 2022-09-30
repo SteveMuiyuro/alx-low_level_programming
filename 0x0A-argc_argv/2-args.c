@@ -11,7 +11,7 @@ in main(int argc, char *argv[])
 
 	for (i = 0; i < argc; i++)
 	{
-		_putchar(agrv[i]);
+		_putchar(argv[i]);
 		_putchar('\n');
 	}
 
