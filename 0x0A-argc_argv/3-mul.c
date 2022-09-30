@@ -9,14 +9,14 @@ int main(int argc, char *argv[])
 {
 	int i, j, k
 
-	if (agrc != 3)
+	if (argc != 3)
 	{
 		printf("Error");
 		return (1);
 	}
 
-	i = atoi(agrv[1]);
-	j = atoi(agrv[2]);
+	i = atoi(argv[1]);
+	j = atoi(argv[2]);
 	k = i * j;
 	printf("%d\n", k);
 
