@@ -27,8 +27,8 @@ int main(int argc, char *argv[])
 		for (i = 0; i < 5; i++)
 		{
 			j = x / k[i];
-			x -= t * k[i];
-			y += t;
+			x -= j * k[i];
+			y += j;
 			if (x == 0)
 				break;
 		}
