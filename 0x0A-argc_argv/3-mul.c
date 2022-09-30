@@ -11,7 +11,7 @@ int main(int argc, char *argv[])
 
 	if (argc != 3)
 	{
-		put("Error");
+		puts("Error");
 		return (1);
 	}
 
