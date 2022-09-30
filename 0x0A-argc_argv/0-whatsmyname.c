@@ -5,10 +5,9 @@ i#include "main.h"
   *@argv: the array of string arguments
   *Return: Always 0 (Success0
   */
-int main(int argc, char *argv[])
+int main(int argc __attribute__((unused)), char *argv[])
 {
-	if (argc == 0)
-		printf("%s\n", argv[0]);
+	printf("%s\n", argv[0]);
 
 	return (0);
 }
