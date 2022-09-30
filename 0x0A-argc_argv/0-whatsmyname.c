@@ -1,4 +1,4 @@
-i#include "main.h"
+#include "main.h"
 /**
   *main -  prints its name, followed by a new line.
   *@argc: the count of the arguments to be compiled
