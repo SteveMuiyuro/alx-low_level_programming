@@ -7,7 +7,7 @@
   */
 int main(int argc, char *argv[])
 {
-	int i, j, k
+	int i, j, k;
 
 	if (argc != 3)
 	{
