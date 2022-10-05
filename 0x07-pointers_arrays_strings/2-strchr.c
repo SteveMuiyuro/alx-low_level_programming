@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stddef.h>
+
 /**
   *_strchr - The function locates a character in a string
   *@s: is a string pointr argument

@@ -6,5 +6,6 @@ int _putchar(char c);
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
+char *create_array(unsigned int size, char c);
 
 #endif

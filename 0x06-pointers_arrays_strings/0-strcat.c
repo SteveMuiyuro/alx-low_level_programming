@@ -1,4 +1,6 @@
 #include "main.h"
+#include <string.h>
+
 /**
   **_strcat - is a function that function appends the src
   *	      string to the dest string, overwriting the terminating
