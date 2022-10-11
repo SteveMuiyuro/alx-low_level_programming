@@ -1,5 +1,5 @@
-#ifndef MAIN_H
-#define MAIN_H
-#define SIZE 1024
 #ifndef SIZE
+#define SIZE 1024
 #include "main.h"
+
+#endif /* SIZE */
