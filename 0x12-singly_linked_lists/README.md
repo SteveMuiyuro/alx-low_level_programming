@@ -2,8 +2,6 @@
 
 ## About this project
 
----
-
 An introductory project on:
 
 - How to build a single linked list
@@ -11,8 +9,6 @@ An introductory project on:
 * Distiguishing between linked lists and arrays.
 
 ## File Descriptions
-
----
 
 [list.h](https://github.com/SteveMuiyuro/alx-low_level_programming/blob/master/0x12-singly_linked_lists/0-print_list.c "lists.h") - Contains all the header files and prototypes.
 
