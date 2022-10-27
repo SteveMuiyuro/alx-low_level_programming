@@ -1,6 +1,6 @@
 /*
  * File: 9-insert_nodeint.c
- * Auth: Brennan D Baraban
+ * Auth: Steve Mwangi
  */
 
 #include "lists.h"
