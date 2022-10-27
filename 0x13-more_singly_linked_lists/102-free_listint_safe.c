@@ -25,7 +25,7 @@ size_t looped_listint_count(listint_t *head)
 		return (0);
 
 	t = head->next;
-	hare = (head->next)->next;
+	h = (head->next)->next;
 
 	while (h)
 	{
