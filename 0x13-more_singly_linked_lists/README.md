@@ -78,4 +78,4 @@
 
 `103-find_loop.c:` is a program that finds the loop in a linked list.
 
-`Return Value:` The address of the node where the loop starts, or NULL if there is no loop.
+`Return Value:` the address of the node where the loop starts, or NULL if there is no loop.
