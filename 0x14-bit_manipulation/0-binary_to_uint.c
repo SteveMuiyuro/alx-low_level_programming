@@ -1,4 +1,3 @@
-
 /*
  * Auth: Steve Mwangi
  * File: 0-binary_to_uint.c
@@ -7,7 +6,8 @@
 #include "main.h"
 
 /**
- * binary_to_uint - Converts a binary number to an unsigned int.
+ * binary_to_uint - This function converts a binary
+ * 		    number to an unsigned int.
  * @b: A pointer to a string of 0 and 1 chars.
  *
  * Return: If b is NULL or contains chars not 0 or 1 - 0.
