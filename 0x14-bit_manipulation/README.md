@@ -4,7 +4,7 @@
 
 [0-binary_to_uint.c:](https://github.com/SteveMuiyuro/alx-low_level_programming/blob/master/0x14-bit_manipulation/0-binary_to_uint.c) is a program that converts a binary number to an unsigned int.
 
-`Return Value:`the converted number, or 0 if
+`Return Value:`the converted number, or 0 if:
 
 - there is one or more chars in the string b that is not 0 or 1
 
