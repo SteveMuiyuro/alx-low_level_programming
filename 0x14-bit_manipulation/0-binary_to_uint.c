@@ -17,20 +17,20 @@ unsigned int binary_to_uint(const char *b)
 {
 
 	unsigned int num = 0, mult = 1;
-	int len;
+	int a;
 
 	if (b == '\0')
 		return (0);
 
-	for (len = 0; b[len];)
-		len++;
+	for (a = 0; b[a];)
+		a++;
 
-	for (len -= 1; len >= 0; len--)
+	for (a -= 1; a >= 0; a--)
 	{
-		if (b[len] != '0' && b[len] != '1')
+		if (b[a] != '0' && b[a] != '1')
 			return (0);
 
-		num += (b[len] - '0') * mult;
+		num += (b[a] - '0') * mult;
 		mult *= 2;
 	}
 
