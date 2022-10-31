@@ -42,6 +42,8 @@
 
 `Return Value:`0 if big endian, 1 if little endian.
 
+## Extras
+
 [main.h:](https://github.com/SteveMuiyuro/alx-low_level_programming/blob/master/0x14-bit_manipulation/main.h) Contains the prototypes of all functions in the `0x14-bit_manipulation` directory.
 
 [\_putchar.c:](https://github.com/SteveMuiyuro/alx-low_level_programming/blob/master/0x14-bit_manipulation/_putchar.c) contains the prototype of the function `_putchar`
