@@ -9,6 +9,7 @@
 ## 1. Under the snow
 
 [1-create_file.c:](https://github.com/SteveMuiyuro/alx-low_level_programming/blob/master/0x15-file_io/1-create_file.c) is a program that creates a file.
+
 `Return Value:`1 on success, -1 on failure (file can not be created, file can not be written, write “fails”, etc…)
 The created file must have those permissions: rw-------. If the file already exists, do not change the permissions.
 
